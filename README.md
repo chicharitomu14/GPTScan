@@ -4,9 +4,11 @@ A new version of LLM detector for smart contract bugs based on [the LLM4Vuln pap
 
 ~~You can try GPTScan at https://app.metatrust.io/ for the moment, but we will replace it later with a new version (covering all kinds of logic bug rules).~~
 
-This repository contains the prompts and rules used in MetaTrust Labs' GPTScan.
+This repository contains the prompts and rules (i.e., the GPT part) used in GPTScan.
 
-More rules and APIs will coming later.
+The static part has been released at https://github.com/MetaTrustLabs/falcon-metatrust.
+
+Interested users can write their own connectors to invoke relevant functions in the static part.
 
 ## Preprint paper
 
